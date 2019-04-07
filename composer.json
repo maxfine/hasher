@@ -1,0 +1,27 @@
+{
+    "name": "maxfine/hasher",
+    "description": "md5 hash",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "maxfine",
+            "email": "max_fine@qq.com"
+        }
+    ],
+    "require": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Maxfine\\Hasher\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Maxfine\\Hasher\\MD5HasherProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable" : true
+}
